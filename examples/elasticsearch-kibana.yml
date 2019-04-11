@@ -134,6 +134,7 @@ spec:
         args: ["-v", "4"]
       dnsPolicy: ClusterFirst
       restartPolicy: Always
+      serviceAccountName: event-exporter
       terminationGracePeriodSeconds: 30
 ---
 apiVersion: v1
